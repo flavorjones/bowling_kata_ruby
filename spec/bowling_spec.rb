@@ -4,6 +4,6 @@ describe 'My behaviour' do
 
   it 'should do something' do
 
-    true.should == false
+    expect(3).to eq(3)
   end
 end
