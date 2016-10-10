@@ -1,6 +1,6 @@
 require 'game'
 
-describe 'Game' do
+describe Game do
 
   it 'with 20 gutters should score zero'
   it 'with 20 ones should score 20'
