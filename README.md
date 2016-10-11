@@ -1,6 +1,8 @@
 # The Bowling Kata in Ruby
 
-First done in October, 2016 at a recruting event.
+First done in October, 2016 at a recruiting event.
+
+Concept and "script" adapted from [Uncle Bob's][bob] [Bowling Game kata][kata]
 
 ## Getting Started
 
@@ -92,3 +94,5 @@ Save off all rolls into an array and then walk the array to score. Spares first,
 
 This should just work. BOOM.
 
+[bob]: https://sites.google.com/site/unclebobconsultingllc/
+[kata]: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjrjanSidPPAhUE3mMKHedHD70QFggcMAA&url=http%3A%2F%2Fbutunclebob.com%2Ffiles%2Fdownloads%2FBowling%2520Game%2520Kata.ppt&usg=AFQjCNFHxYawc054GuRAyXzmcYUfaJ1Z6g&bvm=bv.135475266,d.cGc
