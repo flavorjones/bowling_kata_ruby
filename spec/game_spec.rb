@@ -1,11 +1,23 @@
 require "game"
 
 describe Game do
+  context "with 20 gutters" do
+    it "should score zero"
+  end
 
-  it "with 20 gutters should score zero"
-  it "with 20 ones should score 20"
-  it "with 1 spare should score the next roll"
-  it "with a strike should score the next two rolls"
-  it "with all strikes should be a perfect game"
+  context "with 20 ones" do
+    it "should score 20"
+  end
 
+  context "with 1 spare" do
+    it "should add the next roll to this frame"
+  end
+
+  context "with a strike" do
+    it "should add the next two rolls to this frame"
+  end
+
+  context "with all strikes" do
+    it "should score a perfect game of 300"
+  end
 end
